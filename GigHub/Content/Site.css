@@ -3,6 +3,7 @@
     padding-bottom: 20px;
 }
 
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -21,4 +22,56 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/* Bootstrap overrides */
+
+.navbar-inverse {
+    background-color: #ffd026;
+    border-color: #ffd026;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #822626;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #822626;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #428bca;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #428bca;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #eed3d7;
+}
+
+.btn {
+    padding: 6px 20px;
+    -webkit-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.title {
+    margin-bottom: 60px;
+    color: #f97248;
+    
 }
