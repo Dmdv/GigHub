@@ -71,7 +71,12 @@ label {
 }
 
 .title {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     color: #f97248;
     
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
 }
