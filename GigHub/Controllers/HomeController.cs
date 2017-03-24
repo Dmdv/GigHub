@@ -1,9 +1,12 @@
-﻿using System.Web.Mvc;
+﻿using GigHub.Models.IdentityModel;
+using System.Web.Mvc;
 
 namespace GigHub.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext _context = new ApplicationDbContext();
+
         public ActionResult Index()
         {
             return View();

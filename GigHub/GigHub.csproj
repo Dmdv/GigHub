@@ -195,7 +195,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="ViewModel\Account\AccountController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -230,12 +230,20 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\IdentityModel\ApplicationDbContext.cs" />
+    <Compile Include="Models\IdentityModel\ApplicationUser.cs" />
+    <Compile Include="ViewModel\AddPhoneNumberViewModel.cs" />
+    <Compile Include="ViewModel\ChangePasswordViewModel.cs" />
+    <Compile Include="ViewModel\FactorViewModel.cs" />
+    <Compile Include="ViewModel\IndexViewModel.cs" />
+    <Compile Include="ViewModel\ManageLoginsViewModel.cs" />
+    <Compile Include="ViewModel\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Validation\FutureValidation.cs" />
     <Compile Include="ViewModel\GigFormViewModel.cs" />
+    <Compile Include="ViewModel\SetPasswordViewModel.cs" />
+    <Compile Include="ViewModel\VerifyPhoneNumberViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />

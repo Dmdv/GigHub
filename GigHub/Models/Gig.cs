@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GigHub.Models.IdentityModel;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace GigHub.Models
